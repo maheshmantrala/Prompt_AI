@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import blogsData from "../data/data.json";
-import BlogCard from "./BlogCard";
+import BlogCard from "./Blogcard";
 
 const categories = [
   { name: "All", icon: "📂" },
