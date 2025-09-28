@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <section className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-gray-100 px-6 py-20 font-sans">
@@ -71,14 +71,18 @@ const About = () => {
       {/* Call-to-Action */}
   {/* Call-to-Action */}
 <div className="mt-12 flex justify-center">
-  <motion.a
-    href="/blogs"
-    className="bg-purple-500 text-white px-8 py-3 rounded-full shadow-lg hover:bg-purple-600 transition font-medium"
-    whileHover={{ scale: 1.05 }}
-    whileTap={{ scale: 0.95 }}
+   <motion.div
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  className="mt-12 text-center"
+>
+  <Link
+    to="/blogs"
+    className="inline-block bg-purple-500 text-white px-8 py-3 rounded-full shadow-lg hover:bg-purple-600 transition font-medium"
   >
     Explore AI Prompts
-  </motion.a>
+  </Link>
+</motion.div>
 </div>
 
 

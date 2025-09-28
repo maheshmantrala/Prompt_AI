@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import { Link } from "react-router-dom";
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen pt-20 flex items-center justify-center bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 px-4 sm:px-6 lg:px-8 overflow-hidden">
@@ -36,14 +36,18 @@ const HeroSection = () => {
         </motion.p>
 
         {/* Button */}
-        <motion.a
-          href="/blogs"
-          className="mt-6 sm:mt-8 inline-block bg-purple-500 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full shadow-lg hover:bg-purple-600 transition font-medium"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          Explore Prompts
-        </motion.a>
+        <motion.div
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  className="mt-12 text-center"
+>
+  <Link
+    to="/blogs"
+    className="inline-block bg-purple-500 text-white px-8 py-3 rounded-full shadow-lg hover:bg-purple-600 transition font-medium"
+  >
+    Explore AI Prompts
+  </Link>
+</motion.div>
       </div>
     </section>
   );
