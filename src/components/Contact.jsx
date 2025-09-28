@@ -100,9 +100,9 @@ const Contact = () => {
 
         {/* Social Links */}
         <div className="mt-8 flex justify-center gap-6 text-gray-200">
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition text-2xl"><FaLinkedin /></a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-100 transition text-2xl"><FaGithub /></a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition text-2xl"><FaInstagram /></a>
+          <a href="https://www.linkedin.com/in/maheshmantrala8897/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition text-2xl"><FaLinkedin /></a>
+          <a href="https://github.com/maheshmantrala" target="_blank" rel="noopener noreferrer" className="hover:text-gray-100 transition text-2xl"><FaGithub /></a>
+          <a href="https://www.instagram.com/mahesh_mantrala/" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition text-2xl"><FaInstagram /></a>
         </div>
       </motion.div>
 
