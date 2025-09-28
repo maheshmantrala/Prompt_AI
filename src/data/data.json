@@ -1,0 +1,281 @@
+[
+  {
+    "id": 1,
+    "category": { "name": "Developers", "icon": "💻" },
+    "title": "Angular Prompts",
+    "description": "Advanced Angular prompts for professional developers.",
+    "topic": "Angular",
+    "prompts": [
+      { "heading": "Reactive Forms", "text": "Generate a fully reactive Angular form with nested form arrays and custom validators." },
+      { "heading": "Lazy Loading Modules", "text": "Implement dynamic module lazy-loading based on user roles." },
+      { "heading": "Reusable Components", "text": "Create a reusable Angular Material component library with theming." },
+      { "heading": "App Optimization", "text": "Optimize Angular app performance by lazy-loading images and modules." },
+      { "heading": "Offline Caching", "text": "Generate a service to handle offline caching with IndexedDB." },
+      { "heading": "State Management", "text": "Implement NgRx state management for a multi-step form." },
+      { "heading": "Input Formatting", "text": "Create a directive to auto-format input fields by locale." },
+      { "heading": "Unit Testing", "text": "Generate unit tests for complex asynchronous Angular services." },
+      { "heading": "Real-Time Notifications", "text": "Implement real-time notifications using WebSockets in Angular." },
+      { "heading": "Progressive Web App", "text": "Create an Angular PWA with offline support." }
+    ]
+    
+  },
+  {
+    "id": 2,
+    "category": { "name": "Developers", "icon": "💻" },
+    "title": "React Prompts",
+    "description": "Advanced React prompts for top-tier developers.",
+    "topic": "React",
+    "prompts": [
+      { "heading": "Dynamic Forms", "text": "Generate a dynamic form using React Hook Form with validation." },
+      { "heading": "Global State", "text": "Implement Context API with TypeScript for global state." },
+      { "heading": "Component Library", "text": "Create a reusable component library using styled-components." },
+      { "heading": "Performance Optimization", "text": "Optimize React rendering with memoization and lazy loading." },
+      { "heading": "API Caching", "text": "Generate a React component that caches API data with SWR." },
+      { "heading": "Drag & Drop UI", "text": "Implement a drag-and-drop dashboard using React Beautiful DnD." },
+      { "heading": "Unit Testing", "text": "Write unit tests with Jest and React Testing Library." },
+      { "heading": "Real-Time Chat", "text": "Create a real-time chat app using React and WebSockets." },
+      { "heading": "Dynamic Theming", "text": "Implement dynamic theming using CSS variables in React." },
+      { "heading": "PWA Caching", "text": "Build a React PWA with offline-first caching strategies." }
+    ]
+   
+  },
+  {
+    "id": 3,
+    "category": { "name": "Developers", "icon": "💻" },
+    "title": "Spring Boot Prompts",
+    "description": "Expert Spring Boot prompts for backend developers.",
+    "topic": "Spring Boot",
+    "prompts": [
+      { "heading": "REST API", "text": "Generate a RESTful API with Spring Boot and JPA entities." },
+      { "heading": "JWT Authentication", "text": "Implement JWT authentication with Spring Security for multiple roles." },
+      { "heading": "Caching with Redis", "text": "Create caching with Redis to optimize API responses." },
+      { "heading": "Testing Services", "text": "Write unit and integration tests for Spring Boot services." },
+      { "heading": "Event-Driven Architecture", "text": "Implement event-driven architecture with Spring Boot and Kafka." },
+      { "heading": "Dynamic Query Builder", "text": "Create a dynamic query builder using Criteria API." },
+      { "heading": "Global Exception Handling", "text": "Implement global exception handling with custom responses." },
+      { "heading": "Microservices Discovery", "text": "Generate a microservice with Eureka and Ribbon for service discovery." },
+      { "heading": "Scheduled Tasks", "text": "Implement scheduled tasks with dynamic cron expressions." },
+      { "heading": "File Upload Service", "text": "Build a file upload service using Spring Boot and S3." }
+    ]
+  },
+  {
+    "id": 4,
+    "category": { "name": "Students", "icon": "🎓" },
+    "title": "Math Prompts",
+    "description": "Advanced math prompts for students.",
+    "topic": "Math",
+    "prompts": [
+      { "heading": "Calculus Problems", "text": "Generate solved examples for calculus differentiation problems." },
+      { "heading": "Linear Algebra", "text": "Create real-world linear algebra problems with solutions." },
+      { "heading": "Probability Distributions", "text": "Explain probability distributions with examples." },
+      { "heading": "Combinatorics Challenges", "text": "Generate challenging combinatorics problems." },
+      { "heading": "Matrix Transformations", "text": "Explain matrix transformations visually." },
+      { "heading": "Integral Solutions", "text": "Generate integral problems with step-by-step solutions." },
+      { "heading": "Statistics Word Problems", "text": "Create word problems involving statistics and probability." },
+      { "heading": "Geometry Proofs", "text": "Generate geometry proofs for high school level." },
+      { "heading": "Trigonometry Identities", "text": "Explain advanced trigonometric identities with examples." },
+      { "heading": "Calculus Optimization", "text": "Generate calculus optimization problems with solutions." }
+    ],
+    "bgImage": ""
+  },
+  {
+    "id": 5,
+    "category": { "name": "Students", "icon": "🎓" },
+    "title": "Science Prompts",
+    "description": "High-level science prompts for students.",
+    "topic": "Science",
+    "prompts": [
+      { "heading": "Quantum Mechanics", "text": "Explain quantum mechanics in simple terms with examples." },
+      { "heading": "Chemistry Experiments", "text": "Generate practical chemistry lab experiments." },
+      { "heading": "Physics Concepts", "text": "Explain physics concepts with visual analogies." },
+      { "heading": "Biology Anatomy", "text": "Generate biology questions on human anatomy." },
+      { "heading": "Astronomy Examples", "text": "Explain astronomy concepts using real-world examples." },
+      { "heading": "Environmental Case Studies", "text": "Create environmental science case studies." },
+      { "heading": "Genetics Exercises", "text": "Generate exercises on genetics with problem-solving." },
+      { "heading": "Thermodynamics Examples", "text": "Explain thermodynamics laws with examples." },
+      { "heading": "Chemistry Reactions", "text": "Generate chemistry balancing reaction problems." },
+      { "heading": "Optics Practice", "text": "Create practice questions for optics and waves." }
+    ],
+    "bgImage": ""
+  },
+  {
+    "id": 6,
+    "category": { "name": "Writers", "icon": "✍️" },
+    "title": "Creative Writing Prompts",
+    "description": "Enhance storytelling and creativity.",
+    "topic": "Creative Writing",
+    "prompts": [
+      { "heading": "Dystopian Story", "text": "Write a dystopian story where AI governs society." },
+      { "heading": "Character Dialogue", "text": "Generate dialogue between two characters with opposite morals." },
+      { "heading": "Alien Observer", "text": "Describe a city through an alien observer’s perspective." },
+      { "heading": "Reverse Narrative", "text": "Create a story that begins at the end and works backward." },
+      { "heading": "Unreliable Narrator", "text": "Write a first-person narrative with an unreliable narrator." },
+      { "heading": "Mysterious Object Story", "text": "Generate a story around a mysterious attic object." },
+      { "heading": "Suspense Writing", "text": "Write suspense without revealing the antagonist." },
+      { "heading": "Dream Plot Device", "text": "Incorporate dreams as a plot device in a story." },
+      { "heading": "Morally Ambiguous Characters", "text": "Generate morally ambiguous character sketches." },
+      { "heading": "Multiple Perspectives", "text": "Write a story from alternating perspectives." }
+    ],
+    "bgImage": ""
+  },
+  {
+    "id": 7,
+    "category": { "name": "Writers", "icon": "✍️" },
+    "title": "Blog Writing Prompts",
+    "description": "Prompts for professional blogging.",
+    "topic": "Blog Articles",
+    "prompts": [
+      { "heading": "AI Healthcare Blog", "text": "Generate a blog post on AI in healthcare with examples." },
+      { "heading": "React Hooks Tutorial", "text": "Write a tutorial blog on advanced React Hooks." },
+      { "heading": "SEO Tech Review", "text": "Generate SEO-friendly tech review content." },
+      { "heading": "Language Comparison", "text": "Compare two popular programming languages in a post." },
+      { "heading": "Content Calendar", "text": "Generate a content calendar for a finance blog." },
+      { "heading": "Productivity Listicle", "text": "Write a listicle of top 10 productivity tools for developers." },
+      { "heading": "Travel Blog Intro", "text": "Generate an engaging intro for a travel blog." },
+      { "heading": "Social Media Trends", "text": "Analyze social media trends in 2025 for a blog post." },
+      { "heading": "Blockchain for Beginners", "text": "Explain blockchain for beginners in a post." },
+      { "heading": "Thought Leadership", "text": "Write a thought leadership piece on remote work future." }
+    ],
+    "bgImage": ""
+  },
+  {
+    "id": 8,
+    "category": { "name": "Professionals", "icon": "💼" },
+    "title": "Management Prompts",
+    "description": "Prompts for business management professionals.",
+    "topic": "Management",
+    "prompts": [
+      { "heading": "Team Productivity", "text": "Generate strategies to improve team productivity." },
+      { "heading": "Risk Management Plan", "text": "Create a risk management plan for a new project." },
+      { "heading": "KPI Dashboards", "text": "Generate KPI dashboards for business tracking." },
+      { "heading": "Leadership Styles", "text": "Explain leadership styles with case studies." },
+      { "heading": "Problem-Solving Scenarios", "text": "Generate problem-solving scenarios for management." },
+      { "heading": "Project Timelines", "text": "Create project timelines with Gantt chart examples." },
+      { "heading": "Negotiation Tactics", "text": "Generate negotiation tactics for business deals." },
+      { "heading": "Onboarding Processes", "text": "Create onboarding processes for new employees." },
+      { "heading": "Conflict Resolution Exercises", "text": "Generate conflict resolution exercises for teams." },
+      { "heading": "Performance Review Template", "text": "Write a performance review template with constructive feedback." }
+    ],
+    "bgImage": ""
+  },
+  {
+    "id": 9,
+    "category": { "name": "Professionals", "icon": "💼" },
+    "title": "Marketing Prompts",
+    "description": "High-value marketing prompts.",
+    "topic": "Marketing",
+    "prompts": [
+      { "heading": "Social Media Campaign", "text": "Generate a social media campaign strategy for a new product." },
+      { "heading": "Email Marketing Sequence", "text": "Create an email marketing sequence for lead nurturing." },
+      { "heading": "SEO Blog Topics", "text": "Generate SEO-friendly blog topics for brand visibility." },
+      { "heading": "Customer Analysis", "text": "Analyze customer behavior and suggest improvements." },
+      { "heading": "Influencer Marketing", "text": "Create an influencer marketing plan for Instagram." },
+      { "heading": "Copywriting Examples", "text": "Generate copywriting examples for high-converting ads." },
+      { "heading": "Content Calendar", "text": "Develop a content calendar for a tech brand." },
+      { "heading": "A/B Testing Scenarios", "text": "Generate A/B testing scenarios for landing pages." },
+      { "heading": "Competitor Analysis", "text": "Analyze competitor marketing strategies." },
+      { "heading": "Viral Video Idea", "text": "Create a viral video campaign idea." }
+    ],
+    "bgImage": ""
+  },
+  {
+    "id": 10,
+    "category": { "name": "Creative", "icon": "🎨" },
+    "title": "Creative Writing Prompts",
+    "description": "Enhance storytelling and creativity.",
+    "topic": "Creative Writing",
+    "prompts": [
+      { "heading": "Ethical Dystopia", "text": "Write a dystopian story where AI governs society, highlighting ethical dilemmas." },
+      { "heading": "Moral Dialogue", "text": "Generate dialogue between two characters with opposing morals and hidden motives." },
+      { "heading": "Alien Perspective", "text": "Describe a city from the perspective of an alien visitor observing humans for the first time." },
+      { "heading": "Reverse Chronology", "text": "Write a story that begins at the end and reveals events in reverse chronological order." },
+      { "heading": "Unreliable Narrator", "text": "Create a first-person narrative featuring an unreliable narrator with a twist ending." },
+      { "heading": "Mysterious Object", "text": "Generate a story revolving around a mysterious attic object that changes the protagonist's life." },
+      { "heading": "Suspense Writing", "text": "Write suspenseful scenes without revealing the antagonist until the climax." },
+      { "heading": "Dream Plot Device", "text": "Incorporate vivid dreams as a plot device influencing character decisions." },
+      { "heading": "Complex Characters", "text": "Generate morally ambiguous character sketches for a complex novel." },
+      { "heading": "Multiple Perspectives", "text": "Write a story from alternating perspectives that gradually converge." }
+    ],
+    "bgImage": ""
+  },
+  {
+    "id": 11,
+    "category": { "name": "Creative", "icon": "🎨" },
+    "title": "Digital Art Prompts",
+    "description": "Unique prompts for digital artists and designers.",
+    "topic": "Digital Art",
+    "prompts": [
+      { "heading": "Cyberpunk Cityscape", "text": "Design a cyberpunk cityscape at night with neon lights and rain reflections." },
+      { "heading": "Surreal Portrait", "text": "Create a surreal portrait where nature merges with human features." },
+      { "heading": "Fantasy Underwater World", "text": "Illustrate an underwater fantasy kingdom with glowing sea creatures." },
+      { "heading": "Retro-Futuristic Robot", "text": "Design a retro-futuristic robot in a 90s sci-fi aesthetic." },
+      { "heading": "Post-Apocalyptic Vehicle", "text": "Generate a concept for a post-apocalyptic vehicle design." },
+      { "heading": "Mystical Forest", "text": "Draw a mystical forest inhabited by ethereal creatures and floating lights." },
+      { "heading": "Emotion-Based Abstract Art", "text": "Create an abstract digital artwork inspired by emotions like nostalgia or melancholy." },
+      { "heading": "High-Tech Control Room", "text": "Illustrate a high-tech control room with holographic interfaces." },
+      { "heading": "Steampunk Airship", "text": "Generate a steampunk airship flying above a futuristic city." },
+      { "heading": "Cinematic Poster Design", "text": "Design a cinematic poster for an AI-themed thriller movie." }
+    ],
+    "bgImage": ""
+  },
+  {
+    "id": 12,
+    "category": { "name": "Creative", "icon": "🎨" },
+    "title": "Photography Prompts",
+    "description": "Inspiring prompts for photographers.",
+    "topic": "Photography",
+    "prompts": [
+      { "heading": "Bollywood Rain Scene", "text": "Capture a moody 90s Bollywood rain sequence with dramatic lighting." },
+      { "heading": "Urban Reflections", "text": "Photograph urban reflections in puddles after rainfall at night." },
+      { "heading": "Emotive Portrait", "text": "Take a portrait emphasizing emotions through shadow and light contrast." },
+      { "heading": "Traffic Light Trails", "text": "Shoot a long-exposure of moving traffic to create abstract light trails." },
+      { "heading": "Minimalist Architecture", "text": "Capture minimalistic architecture with geometric patterns and symmetry." },
+      { "heading": "Cultural Street Moments", "text": "Photograph candid street moments highlighting cultural diversity." },
+      { "heading": "Macro Surrealism", "text": "Take a macro shot of everyday objects making them look surreal." },
+      { "heading": "Foggy Sunrise", "text": "Photograph a sunrise in a foggy forest to capture ethereal light." },
+      { "heading": "Black & White Cinematic", "text": "Create a cinematic black-and-white scene with high contrast." },
+      { "heading": "Motion Blur Performance", "text": "Shoot a motion blur sequence of dancers or performers in low light." }
+    ],
+    "bgImage": ""
+  },
+  {
+    "id": 13,
+    "category": { "name": "Creative", "icon": "🎨" },
+    "title": "Design Prompts",
+    "description": "AI prompts for designers and creative professionals.",
+    "topic": "Graphic Design",
+    "prompts": [
+      { "heading": "Futuristic Mobile UI", "text": "Generate UI design ideas for a futuristic mobile app." },
+      { "heading": "Sustainable Brand Palette", "text": "Create color palette suggestions for a sustainable brand website." },
+      { "heading": "Landing Page Critique", "text": "Write a design critique for an existing landing page." },
+      { "heading": "Minimalist Dashboard Icons", "text": "Generate icon ideas for a dashboard with a minimalist aesthetic." },
+      { "heading": "E-commerce Wireframes", "text": "Create wireframe layouts for an e-commerce platform with enhanced UX." },
+      { "heading": "Product Launch Animations", "text": "Generate animation concepts for a product launch video." },
+      { "heading": "Font Pairing Suggestions", "text": "Suggest font pairings for a modern blog or magazine." },
+      { "heading": "AI Startup Logo", "text": "Generate logo design ideas for an AI-driven startup." },
+      { "heading": "Social Media Mood Boards", "text": "Create mood board concepts for a social media marketing campaign." },
+      { "heading": "Creative Taglines", "text": "Write a creative tagline for a design-focused agency or brand." }
+    ],
+    "bgImage": ""
+  },
+  {
+    "id": 14,
+    "category": { "name": "Creative", "icon": "🎨" },
+    "title": "Storytelling Prompts",
+    "description": "Prompts for creating engaging narratives.",
+    "topic": "Storytelling",
+    "prompts": [
+      { "heading": "Photo-Inspired Story", "text": "Write a short story inspired by a single photograph." },
+      { "heading": "Futuristic Character Tale", "text": "Generate a character-driven story set in a futuristic city." },
+      { "heading": "Suspense with Twist", "text": "Create a suspense story with an unexpected twist ending." },
+      { "heading": "Dialogue-Only Story", "text": "Write a dialogue-only story revealing character relationships." },
+      { "heading": "Fantasy with Rules", "text": "Generate a fantasy tale incorporating magic systems and rules." },
+      { "heading": "Alternate Timeline Fiction", "text": "Create a historical fiction story set in an alternate timeline." },
+      { "heading": "Urban Horror Story", "text": "Write a horror short story based on urban legends." },
+      { "heading": "Romance with Twist", "text": "Generate a romance story with unconventional plot twists." },
+      { "heading": "Inanimate Perspective", "text": "Create a narrative from the perspective of an inanimate object." },
+      { "heading": "Identity Exploration", "text": "Write a story that explores themes of identity and self-discovery." }
+    ],
+    "bgImage": ""
+  }
+]
