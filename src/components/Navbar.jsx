@@ -21,7 +21,7 @@ const Navbar = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <Link to="/">PromptBlog</Link>
+          <Link to="/">Prompt_AI</Link>
         </motion.div>
 
         {/* Desktop Menu */}
