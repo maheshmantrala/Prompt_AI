@@ -11,7 +11,7 @@ const About = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        About PromptBlog
+        About Prompt_AI
       </motion.h1>
 
       {/* Content Card */}
@@ -93,7 +93,7 @@ const About = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.9, duration: 0.8 }}
       >
-        &copy; 2025 PromptBlog. All rights reserved.
+        &copy; 2025 Prompt_AI. All rights reserved.
       </motion.div>
 
     </section>
