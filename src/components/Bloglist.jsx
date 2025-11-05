@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import blogsData from "../data/data.json";
-import BlogCard from "./Blogcard";
+import BlogCard from "./BlogCard";
 
 const categories = [
   { name: "All", icon: "📂" },
@@ -9,16 +9,24 @@ const categories = [
   { name: "Writers", icon: "✍️" },
   { name: "Students", icon: "🎓" },
   { name: "Professionals", icon: "💼" },
-  { name: "Creative", icon: "🎨" }
+  { name: "Creative", icon: "🎨" },
 ];
 
 const BlogList = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
+  const [searchTerm, setSearchTerm] = useState("");
 
-  const filteredBlogs =
-    selectedCategory === "All"
-      ? blogsData
-      : blogsData.filter(blog => blog.category.name === selectedCategory);
+  const filteredBlogs = blogsData.filter((blog) => {
+    const matchesCategory =
+      selectedCategory === "All" || blog.category.name === selectedCategory;
+
+    const matchesSearch =
+      blog.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      blog.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      blog.category.name.toLowerCase().includes(searchTerm.toLowerCase());
+
+    return matchesCategory && matchesSearch;
+  });
 
   return (
     <section className="min-h-screen bg-gray-900 text-white py-16 px-6">
@@ -37,18 +45,28 @@ const BlogList = () => {
         </p>
       </motion.div>
 
+      {/* Search Bar */}
+      <div className="flex justify-center mb-8">
+        <input
+          type="text"
+          placeholder="Search by title, description, or category..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="w-full max-w-md px-4 py-2 rounded-full bg-gray-800 text-gray-200 focus:outline-none focus:ring-2 focus:ring-purple-500"
+        />
+      </div>
+
       {/* Categories */}
       <div className="flex justify-center flex-wrap gap-3 mb-8">
-        {categories.map(cat => (
+        {categories.map((cat) => (
           <button
             key={cat.name}
             onClick={() => setSelectedCategory(cat.name)}
-            className={`px-3 py-1.5 text-sm rounded-full font-medium transition flex items-center gap-1
-              ${
-                selectedCategory === cat.name
-                  ? "bg-purple-500 text-white"
-                  : "bg-gray-300 text-gray-700 hover:bg-purple-400 hover:text-white"
-              }`}
+            className={`px-3 py-1.5 text-sm rounded-full font-medium transition flex items-center gap-1 ${
+              selectedCategory === cat.name
+                ? "bg-purple-500 text-white"
+                : "bg-gray-300 text-gray-700 hover:bg-purple-400 hover:text-white"
+            }`}
           >
             <span>{cat.icon}</span> {cat.name}
           </button>
@@ -57,9 +75,13 @@ const BlogList = () => {
 
       {/* Blog Cards */}
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {filteredBlogs.map(blog => (
-          <BlogCard key={blog.id} blog={blog} />
-        ))}
+        {filteredBlogs.length > 0 ? (
+          filteredBlogs.map((blog) => <BlogCard key={blog.id} blog={blog} />)
+        ) : (
+          <p className="text-center text-gray-400 col-span-full">
+            No blogs match your search.
+          </p>
+        )}
       </div>
     </section>
   );

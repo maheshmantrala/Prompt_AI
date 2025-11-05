@@ -5,6 +5,7 @@ import Contact from './components/Contact'
 import Bloglist from './components/Bloglist'
 import Blogdetails from './components/Blogdetails'  
 import Navbar from './components/Navbar'
+import Favorites from './components/Favorites'
 const App = () => {
   return (
     <Router>
@@ -15,8 +16,10 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blogs" element={<Bloglist />} />
         <Route path="/blogs/:id" element={<Blogdetails />} /> 
+        <Route path="/favorites" element={<Favorites />} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
+
     </Router>
   )
 }
